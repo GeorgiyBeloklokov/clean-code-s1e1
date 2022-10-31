@@ -41,7 +41,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task__row__wrapper {
   display: flex;
 }
 
@@ -54,8 +54,8 @@
   list-style: none;
 }
 
-.entity-list-input,
-.add-item-input,
+.entity__list__input,
+.add__item__input,
 .button {
   outline: none;
 }
@@ -76,7 +76,7 @@
 
 /* Heading */
 .title,
-.add-item-label {
+.add__item__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -86,8 +86,8 @@
   text-transform: uppercase;
 }
 
-.entity-list-input, 
-.add-item-input {
+.entity__list__input, 
+.add__item__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,23 +100,23 @@
   color: #888;
 }
 
-.add-item-input, 
-.entity-list-input:focus {
+.add__item__input, 
+.entity__list__input:focus {
   color: #333;
 }
 
 /* New Task */
-.add-item-label {
+.add__item__label {
   display: block;
   margin: 0 0 20px;
 }
 
-.add-item-input {
+.add__item__input {
   width: 318px;
 }
 
 /* Task list */
-.entity-list {
+.entity__list {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -126,27 +126,27 @@
   align-items: center;
 }
 
-.entity-list, 
-.entity-list-input,
-.entity-list-label
+.entity__list, 
+.entity__list__input,
+.entity__list__label
 {
   vertical-align: middle;
 }
 
-.entity-list 
-.checkbox {
+.entity__list 
+.checkbox__input {
   margin: 0 10px;
 }
 
-.entity-list-label {
+.entity__list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.entity-list 
-.entity-list-input {
+.entity__list 
+.entity__list__input {
   width: 226px;
 }
 
@@ -161,23 +161,23 @@
 }
 
 /* Completed */
-#completed-tasks .entity-list-label {
+#completed-tasks .entity__list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.entity-list-input {
+.entity__list__input {
   display: none;
 }
 
- .edit-mode 
- .entity-list-input {
+ .entity__list_edit-mode 
+ .entity__list__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode 
-.entity-list-label {
+.entity__list_edit-mode 
+.entity__list__label {
   display: none;
 }
