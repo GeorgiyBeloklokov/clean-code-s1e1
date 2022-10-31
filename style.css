@@ -54,7 +54,8 @@
   list-style: none;
 }
 
-input,
+.entity-list-input,
+.add-item-input,
 .button {
   outline: none;
 }
