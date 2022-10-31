@@ -16,13 +16,15 @@
   width: 100%;
 }
 
-.main-info .more-inf {
+.main-info 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .main-info { text-align: center;
+  .main-info { 
+    text-align: center;
   }
 
 }
@@ -52,7 +54,8 @@
   list-style: none;
 }
 
-input,.button {
+input,
+.button {
   outline: none;
 }
 
@@ -82,7 +85,8 @@ input,.button {
   text-transform: uppercase;
 }
 
-.entity-list-input, .add-item-input {
+.entity-list-input, 
+.add-item-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -128,7 +132,8 @@ input,.button {
   vertical-align: middle;
 }
 
-.entity-list .checkbox {
+.entity-list 
+.checkbox {
   margin: 0 10px;
 }
 
@@ -139,7 +144,8 @@ input,.button {
   width: 226px;
 }
 
-.entity-list .entity-list-input {
+.entity-list 
+.entity-list-input {
   width: 226px;
 }
 
@@ -164,11 +170,13 @@ input,.button {
   display: none;
 }
 
- .edit-mode .entity-list-input {
+ .edit-mode 
+ .entity-list-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .entity-list-label {
+.edit-mode 
+.entity-list-label {
   display: none;
 }
